@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #1b011b;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+nav img {
+  width: 25px;
+  height: 20px;
+  margin: 0.5rem 0.2rem 0 0;
+}
+
+nav .logo span {
+  font-family: Rockwell-Condensed, Rockwell Condensed;
+  font-size: 30px;
+  color: #da00db;
+  cursor: pointer;
+}
+
+/* NAV UL */
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Myriad Pro";
+  padding-right: 2rem;
+}
+
+header nav ul li a:hover {
+  color: #da00db;
+}
+
+/* NAV BUTTON */
+.nav_btn {
+  margin-top: 0.5rem;
+}
+
+header nav div a {
+  color: #fff;
+  font-family: "Myriad Pro", Helvetica, sans-serif;
+  padding-right: 2rem;
+  text-decoration: none;
+}
+
+header nav div a:hover {
+  color: #da00db;
+}
+
+header .get_btn {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-family: "Myriad Pro";
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #fff;
+  color: #1b011b;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+header .get_btn:hover {
+  background-color: #da00db;
+  color: #1b011b;
+  border: none;
+  transition: background-color 0.5s ease-in;
+}
+
+/* BODY */
+.main_section {
+  margin-top: 100px;
+}
+
+.bg_image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 3rem 3rem 0 0;
+  /* position: relative;
+  z-index: 4; */
+}
+
+/* SECTION TWO */
+.welcome_text {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+.welcome_text h1 {
+  font-family: Rockwell-Condensed, Rockwell Condensed;
+  font-size: 4rem;
+  color: #1b011b;
+}
+
+.welcome_text p {
+  font-family: "Myriad Pro";
+  font-size: 1.5rem;
+  color: #1b011b;
+  padding: 1rem 0 1rem 0;
+}
+
+.welcome_text p {
+  font-family: "Myriad Pro";
+  font-size: 1.5rem;
+  color: #1b011b;
+  padding: 1rem 0 1rem 0;
+}
+
+.welcome_text button:nth-child(1) {
+  padding: 1.5rem 3rem 1.5rem 3rem;
+  font-family: "Myriad Pro";
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #1b011b;
+  border: 0.2rem solid #1b011b;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.welcome_text button:nth-child(1):hover {
+  background-color: #da00db;
+  color: #fff;
+  transition: background-color 0.5s ease-in;
+}
+
+.welcome_text button:nth-child(2) {
+  padding: 1.5rem 3rem 1.5rem 3rem;
+  font-family: "Myriad Pro";
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #1b011b;
+  border: 0.2rem solid #1b011b;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.welcome_text button:nth-child(2):hover {
+  background-color: #da00db;
+  color: #fff;
+  transition: background-color 0.5s ease-in;
+}
